@@ -1,0 +1,334 @@
+/*font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif;*/
+*{
+    padding: 0 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+url(https://th.bing.com/th/id/OIP.nc-QV4QwJXjicTVUe3TMwwHaDt?pid=ImgDet&rs=1);
+    background-size: cover;
+    color: white;
+}
+nav{
+    padding: 0 60px;
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+
+}
+.Menu a{
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+.Menu a:nth-child(5){
+    background-color: rgb(77, 182, 168);
+    border-radius: 13px;
+    margin: 0 1rem;
+}
+.Menu i{
+    font-size: 1.5em;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.Menu a:hover{
+    background-color: rgb(77, 182, 168);
+    color: black;
+    border-radius: 15px;
+}
+.right{
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 2rem;
+    flex-basis: 30%;
+    
+}
+img{
+    
+    width: 295px;
+    height: 430px;
+    background: transparent;
+    box-shadow: 0 5px 14px rgba(255, 255, 250, 0.2);
+    border-radius: 10px;
+ 
+}
+.container{
+    width:100% ;
+    height:100% ;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 70px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.left{
+    flex-basis: 60%;
+
+}
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color: darkcyan;
+}
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size: 3em;
+}
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2rem;
+}
+#Hireme{
+    text-decoration: none;
+    background: #12b37073;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+#me{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 1px dashed white;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+#bio{
+    cursor: pointer;
+    padding: 100px 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)),
+    url(https://th.bing.com/th/id/OIP.rHZKLw_zZ8TFMsTYPKDOEQAAAA?pid=ImgDet&rs=1);
+    background-size: cover;
+    color: white;
+}
+
+.leftbio{
+    flex-basis: 30%;
+
+}
+.rightbio{
+    flex-basis: 68%;
+}
+.leftbio img{
+    width: 100%;
+    height: 550px;
+    background: transparent;
+   
+   
+   
+}
+.rightbio{
+    padding-left: 10px;
+   
+    width: 100%;  
+}
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2rem;
+}
+.rightbio h1{
+    font-size:3rem ;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow{
+    text-align: center;
+}
+#follow i{
+    color: green;
+    font-size: 2.5rem;
+    margin: 0 0.6rem;
+}
+#follow i facebook{
+    color: blue;
+}
+#link-h{
+    text-align: center;
+    margin-top: 3.5rem;
+}
+#CV{
+    text-decoration: none;
+    color: aqua;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 0 1rem;
+    border: 1px dashed red;
+}
+#services{
+    padding: 50px 70px;
+    width: 92.35%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0,0,0,0.3);
+    text-align:center ;
+}
+.intro h1{
+    font-size: 3.5rem;
+    color: mediumturquoise;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+    
+}
+.cardbody{
+    width: 100%;
+    height: 100%;
+    flex-basis: 25%;
+    background: white;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 2px 12px 12px rgba(186, 240, 233, 0.821);
+}
+.cardody{
+    width: 100%;
+    height: 100%;
+    flex-basis: 25%;
+    background: white;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 2px 12px 12px rgba(186, 240, 233, 0.821);
+   
+}
+.carbody{
+    width: 100%;
+    height: 100%;
+    flex-basis: 25%;
+    background: white;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 2px 12px 12px rgba(221, 164, 238, 0.821);
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    box-shadow: 0 5px 14px rgba(255, 255, 250, 0.2);
+    border-radius: 60%;
+    margin-top: 20px;
+}
+.cardody:hover{
+    box-shadow: 0 8px 14px rgba(255, 255, 250, 1);
+    background: rgba(255, rgb(199, 10, 126), 250, 0.6);
+    color: rgb(164, 93, 185);
+}
+.carbody:hover{
+    box-shadow: 0 5px 14px rgba(255, 255, 250, 0.9);
+    
+    color: rgb(164, 93, 185);
+}
+.cardbody:hover{
+    box-shadow: 0 5px 14px rgba(255, 255, 250, 0.9);
+    
+    color: rgb(164, 93, 185);
+}
+.container.left h2{
+    width: 100px;
+  height: 100px;
+  
+  transition-property: width;
+  transition-duration: 5s;
+}
+#Thanks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-image: url(https://th.bing.com/th/id/OIP.nKfroKSKK6Jsg-WqW73_jAHaEK?pid=ImgDet&rs=1);
+   background-size: cover;
+
+}
+#Thanks h2{
+    position: relative;
+    font-size: 12vw;
+    color: #252829;
+    -webkit-text-stroke: 0.3vw #283d52;
+    text-transform: uppercase;
+}
+#Thanks h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #01fe87;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid  #01fe87;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+
+
+}
+@keyframes animate{
+    0%{
+        width: 0;
+        color: aqua;
+    }
+    70%{
+        width: 100%;
+       
+        color: crimson;
+    }
+    
+}
+.left h1::before{
+
+
+animation: aimate 6s linear infinite;
+}
+
+
+@keyframes aimate{
+0%{
+   
+    color: aqua;
+}
+70%{
+    
+    color: crimson;
+}
+
+}
+.left h1{
+   
+    animation-name: example;
+    animation-duration: 5s ;
+    animation: example 5s infinite .5s ;
+  }
+  
+  @keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: rgb(18, 212, 187);}
+    75%  {color: rgb(227, 13, 235);}
+    100% {color: rgb(22, 223, 22);}
+  }
